@@ -265,7 +265,9 @@ line // 1
 loc  // Object {start: Object}
 start // Object {line: 1, column: 5}
 ```
-
+/**
+*老师这个地方根据你所讲的。我觉得应该start也是Object{start:Object}
+*/
 上面代码有三次解构赋值，分别是对`loc`、`start`、`line`三个属性的解构赋值。注意，最后一次对`line`属性的解构赋值之中，只有`line`是变量，`loc`和`start`都是模式，不是变量。
 
 下面是嵌套赋值的例子。
